@@ -15,16 +15,30 @@ h1 {
 .top-container {
   background-color: #e0ebe8;
 }
-.middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-}
-.bottom-container {
+.temp-container {
   background-color: blue;
   width: 200px;
   height: 200px;
 }
+.middle-container {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+.bottom-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
 
 
 
